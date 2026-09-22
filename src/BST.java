@@ -30,8 +30,8 @@ public class BST {
 
     public boolean isEmpty() {
 
-        //return false; // TODO implement me!
-        return root == null;
+        return false; // TODO implement me!
+       //return root == null;
     }
 
     public boolean contains(int item) {
@@ -44,7 +44,6 @@ public class BST {
             return this.left.contains(item);
         }
         return this.right.contains(item);
-
     }
 
 
